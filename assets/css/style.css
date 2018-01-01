@@ -1,0 +1,163 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.section-padding {
+    padding: 30px 0;
+}
+
+.bg-1 {
+    background-image: url(../img/bg-1.jpg);
+}
+
+.bg-2 {
+    background-image: url(../img/bg-2.jpg);
+}
+
+.bg {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+html,
+body,
+.full-height {
+    height: 70%;
+    width: 100%;
+}
+
+.overly {
+    position: relative;
+    z-index: 1;
+}
+
+.overly:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background: #000;
+    opacity: .4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    z-index: -1;
+}
+
+.single-service-item,
+.single-service-item a {
+    color: #fff;
+}
+
+.single-service-item {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.single-service-item:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background: #000;
+    z-index: -1;
+    opacity: .2;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+}
+
+.single-service-item {
+    padding: 30px;
+}
+
+.section-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.section-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.service-icon i {
+    font-size: 50px;
+    padding: 25px 0;
+}
+
+.service-btn {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 20px 0;
+    display: inline-block;
+}
+
+.play-box {
+    text-align: center;
+    color: #fff;
+}
+
+.play-box i {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #fff;
+    line-height: 100px;
+    color: #000;
+    font-size: 25px;
+}
+
+.play-box h2 {
+    padding-bottom: 30px;
+}
+
+.additiopnal {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
